@@ -1,0 +1,24 @@
+{
+  "name": "JS",
+  "version": "1.0.0",
+  "description": "",
+  "main": ".prettierrc.js",
+  "devDependencies": {
+    "@babel/core": "^7.13.16",
+    "@babel/preset-env": "^7.13.15",
+    "babel-loader": "^8.2.2",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "scripts": {
+    "serve": "webpack-dev-server --mode development --open",
+    "build": "webpack --mode production"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "regenerator-runtime": "^0.13.7"
+  }
+}
